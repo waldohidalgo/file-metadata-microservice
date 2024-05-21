@@ -1,12 +1,11 @@
 /****** Main Styling ******/
 
 body {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #222;
-  background-color: #ecf0f1;
+  background-color: #eee;
   text-align: center;
   margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .container {
@@ -32,12 +31,36 @@ input#button {
   width: 230px;
 }
 
-.view {
-  position: relative;
-  margin: auto;
-  margin-top: 40px;
-  border: 1px solid #aaa;
-  padding: 20px;
-  width: 60%;
-  min-width: 400px;
+h1,
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+fieldset {
+  border-width: 2px;
+  border-style: groove;
+  border-color: rgb(192, 192, 192);
+}
+legend {
+  float: none;
+
+  width: auto;
+  padding: 0 10px; /* To give a bit of padding on the left and right */
+  border-bottom: none;
+}
+form {
+  width: 100%;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+#inputfield {
+  width: 100%;
+  max-width: 400px;
+}
+.requirements img {
+  width: 100%;
+  max-width: 800px;
+  margin-inline: auto;
 }
